@@ -1,0 +1,48 @@
+* {
+  /* background-color: #070E06; */
+  background-color: #333;
+  color: #fff;
+}
+
+.flea-bg-container {
+  display: flex;
+  justify-content: end;
+}
+
+.flea-bg-container img {
+  position: absolute;
+}
+
+header { 
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 40px;
+  text-align: center;
+}
+
+.header-left {
+  font-size: 10px;
+  padding-left: 50px;
+}
+
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding-right: 50px;
+}
+
+li a {
+  text-decoration: none;
+}
