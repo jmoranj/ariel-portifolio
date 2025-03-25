@@ -53,6 +53,26 @@ nav ul {
   flex-direction: row;
 }
 
+@keyframes tremor {
+  0%{
+    padding-bottom: 0;
+    transform: rotate(0);
+  }
+  50%{
+    transform: rotate(-15deg);
+  }
+  100%{
+    padding-bottom: 1px;
+    transform: rotate(15deg);
+
+  }
+}
+
+
+nav ul li:hover{
+  animation: tremor 0.3s linear infinite;
+}
+
 li {
   padding-right: 50px;
 }
